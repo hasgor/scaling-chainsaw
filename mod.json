@@ -1,0 +1,29 @@
+{
+    "geode": "v5.11.2",
+    "gd": {
+        "win": "*",
+        "android": "*"
+    },
+    "id": "hasgor.mini-hack",
+    "name": "Mini Hack",
+    "version": "v1.0.0",
+    "developer": "hasgor",
+    "description": "Noclip and speedhack with a settings menu",
+    "settings": {
+        "noclip": {
+            "type": "bool",
+            "name": "Noclip",
+            "description": "Don't die on obstacles",
+            "default": false
+        },
+        "speed": {
+            "type": "float",
+            "name": "Speed",
+            "description": "Game speed multiplier",
+            "default": 1.0,
+            "min": 0.1,
+            "max": 10.0,
+            "control": { "slider": true }
+        }
+    }
+}w
